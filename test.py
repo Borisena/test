@@ -20,7 +20,7 @@ with open('resources.csv', 'a+') as rf:
                 p = psutil.Process(p_info)
                 # Записываем время и дату:
                 now = datetime.datetime.now()
-                # Записываем использование памяти:
+                # Записываем использование памяти: куда 
                 p.memory_info()
                 ws = p.memory_info().wset / 1024
                 pb = p.memory_info().private / 1024
