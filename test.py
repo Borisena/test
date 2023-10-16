@@ -34,3 +34,4 @@ with open('resources.csv', 'a+') as rf:
     ischedule.schedule(update_data(), interval=input_time)
     ischedule.run_loop()
     rf.close()
+это тест 
