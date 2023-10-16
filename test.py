@@ -35,3 +35,4 @@ with open('resources.csv', 'a+') as rf:
     ischedule.run_loop()
     rf.close()
 это тест 
+проверка 
